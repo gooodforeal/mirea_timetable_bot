@@ -204,7 +204,7 @@ def text2(message):
 <code>6️⃣ [18:00-19:30] Физика | ПР | B-326</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
@@ -222,7 +222,7 @@ def text2(message):
 <code>4️⃣ [14:20-15:50] Прога | ЛК</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
@@ -238,7 +238,7 @@ def text2(message):
 <code>6️⃣ [18:00-19:30] ЛА и АГ | ПР | A-405</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
@@ -254,7 +254,7 @@ def text2(message):
 <code>5️⃣ [16:20-17:50] Мат. анл. | ЛК</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
@@ -272,7 +272,7 @@ def text2(message):
 <code>6️⃣ [18:00-19:30] Прога | ПР | ИВЦ-108</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
@@ -285,7 +285,7 @@ def text2(message):
 <code>3️⃣ [12:40-14:10] Инфа | ПР | A-424-1</code>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
             ''',
-            reply_markup=kb.main_markup1,
+            reply_markup=kb.main_markup2,
             parse_mode="html"
             )
         bot.register_next_step_handler(msg, text2)
